@@ -20,3 +20,8 @@
 p {
   margin: 0;
 }
+
+.headshot {
+  max-height: 50vh;
+  padding: 25px;
+}

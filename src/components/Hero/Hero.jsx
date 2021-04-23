@@ -2,6 +2,7 @@ import "./Hero.css";
 import Typed from "typed.js";
 import Image from "react-bootstrap/Image";
 import React, { useRef, useEffect } from "react";
+import headshot from "./headshot.jpg";
 
 export default function Hero() {
   const typeTarget = useRef(null);
@@ -26,13 +27,16 @@ export default function Hero() {
 
   return (
     <div className="hero-banner">
-      <div className="d-flex flex-column ps-2 justify-content-center vh-100 w-100">
+      <div className="d-flex flex-column pt-5 ps-2 justify-content-center vh-100 w-100">
         <div className="ps-sm-5">
-          <div className="ps-sm-5 hero-content display-1 fw-normal hero-content">
-            <p>Hello,</p>
-            <p>I'm Kevin</p>
-            <div className="display-4">
-              <span ref={typeTarget}></span>
+          <div className="d-md-flex align-items-center ps-sm-5">
+            <Image src={headshot} roundedCircle fluid className="headshot" />
+            <div className="ps-sm-5 hero-content display-1 fw-normal hero-content flex-row">
+              <p>Hello,</p>
+              <p>I'm Kevin</p>
+              <div className="display-4">
+                <span ref={typeTarget}></span>
+              </div>
             </div>
           </div>
         </div>
