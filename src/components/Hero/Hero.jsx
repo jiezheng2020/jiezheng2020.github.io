@@ -30,7 +30,9 @@ export default function Hero() {
       <div className="d-flex flex-column pt-5 ps-2 justify-content-center vh-100 w-100">
         <div className="ps-sm-5">
           <div className="d-lg-flex align-items-center ps-sm-5">
-            <Image src={headshot} roundedCircle fluid className="headshot" />
+            <div className="pb-4">
+              <Image src={headshot} roundedCircle fluid className="headshot" />
+            </div>
             <div className="ps-sm-5 hero-content display-1 fw-normal hero-content flex-row">
               <p>Hello,</p>
               <p>I'm Kevin</p>
