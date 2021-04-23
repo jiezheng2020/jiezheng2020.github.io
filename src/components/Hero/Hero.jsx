@@ -35,7 +35,7 @@ export default function Hero() {
             </div>
             <div className="ps-sm-5 hero-content display-1 fw-normal hero-content flex-row">
               <p>Hello,</p>
-              <p>I'm Kevin</p>
+              <p>I'm Kevin.</p>
               <div className="display-4">
                 <span ref={typeTarget}></span>
               </div>
