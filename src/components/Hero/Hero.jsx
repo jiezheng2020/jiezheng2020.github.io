@@ -29,7 +29,7 @@ export default function Hero() {
     <div className="hero-banner">
       <div className="d-flex flex-column pt-5 ps-sm-2 justify-content-center vh-100 w-100">
         <div className="ps-sm-5">
-          <div className="d-lg-flex align-items-center ps-sm-5">
+          <div className="d-xl-flex align-items-center ps-sm-5">
             <div className="pb-4">
               <Image src={headshot} roundedCircle fluid className="headshot" />
             </div>
