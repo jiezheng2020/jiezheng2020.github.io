@@ -9,7 +9,7 @@
 }
 
 .bg-custom {
-  background-color: #000000db !important;
+  background-color: rgba(2, 2, 2, 0.6) !important;
 }
 .navbar {
   padding: 0.25rem 0.5rem !important;
