@@ -4,7 +4,7 @@ import Image from "react-bootstrap/Image";
 import React, { useRef, useEffect } from "react";
 import headshot from "./headshot.jpg";
 
-export default function Hero() {
+function Hero() {
   const typeTarget = useRef(null);
   const options = {
     strings: [
@@ -46,3 +46,5 @@ export default function Hero() {
     </div>
   );
 }
+
+export default Hero;
