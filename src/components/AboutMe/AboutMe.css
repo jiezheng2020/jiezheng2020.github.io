@@ -1,17 +1,18 @@
 .aboutme-container {
-  height: 600px;
+  min-height: 300px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   color: white;
   align-items: center;
 }
 
 .aboutme-container > h2 {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .about-blurb {
   font-size: 20px;
   width: 80%;
   margin: 10px auto;
+  padding-bottom: 20px;
 }
