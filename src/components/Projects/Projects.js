@@ -18,15 +18,24 @@ export default function Projects() {
           </div>
           <div className="project-container d-flex flex-column">
             <img className="proj-image" src={harmony} />
-            Project 1
+            <div className="d-flex flex-row proj-links">
+              <a>Github Repo</a>
+              <a>Live Link</a>
+            </div>
           </div>
           <div className="project-container">
             <img className="proj-image" src={wanderlust} />
-            Project 1
+            <div className="d-flex flex-row proj-links">
+              <a>Github Repo</a>
+              <a>Live Link</a>
+            </div>
           </div>
           <div className="project-container">
             <div className="proj-image" />
-            Project 1
+            <div className="d-flex flex-row proj-links">
+              <a>Github Repo</a>
+              <a>Live Link</a>
+            </div>
           </div>
         </div>
       </div>

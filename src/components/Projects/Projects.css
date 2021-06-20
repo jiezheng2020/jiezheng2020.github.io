@@ -19,7 +19,7 @@
   height: 250px;
   border-radius: 5px;
   width: 300px;
-  background-color: #375252;
+  background-color: #1e3131;
   margin-top: 40px;
 }
 
@@ -30,5 +30,10 @@
 
 .proj-links > a {
   padding: 4px 16px;
-  background-color: red;
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+.proj-links > a:hover {
+  cursor: pointer;
 }
