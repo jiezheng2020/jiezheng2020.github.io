@@ -17,10 +17,15 @@
 }
 .project-container {
   height: 250px;
-  border-radius: 5px;
+  border-radius: 6px;
   width: 300px;
-  background-color: #1e3131;
+  background-color: #e9e9e9;
   margin-top: 40px;
+  transition: transform 0.2s ease;
+}
+
+.project-container:hover {
+  transform: translateY(5px);
 }
 
 .proj-links {
@@ -31,7 +36,7 @@
 .proj-links > a {
   padding: 4px 16px;
   border-radius: 5px;
-  background-color: #000000;
+  background-color: #5d979b;
 }
 
 .proj-links > a:hover {
