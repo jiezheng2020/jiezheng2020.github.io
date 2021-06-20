@@ -1,4 +1,18 @@
 #projects {
-  height: 600px;
-  background-color: blue;
+  min-height: 600px;
+  color: white;
+  padding: 50px;
+}
+
+.projects-row {
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.project-container {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(255, 0, 0);
+  margin-top: 40px;
 }
