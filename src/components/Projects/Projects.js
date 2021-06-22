@@ -2,7 +2,7 @@ import "./Projects.css";
 import calorie from "./calorie.PNG";
 import harmony from "./harmony.PNG";
 import wanderlust from "./wanderlust.PNG";
-import ggames from "./GoodGamesGG.PNG"
+import ggames from "./GoodGames.PNG"
 
 export default function Projects() {
   return (
