@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8db4464f.chunk.css",
-    "main.js": "/static/js/main.a64f5743.chunk.js",
-    "main.js.map": "/static/js/main.a64f5743.chunk.js.map",
+    "main.css": "/static/css/main.350cc54d.chunk.css",
+    "main.js": "/static/js/main.d45c8218.chunk.js",
+    "main.js.map": "/static/js/main.d45c8218.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0733fe2d.js",
     "runtime-main.js.map": "/static/js/runtime-main.0733fe2d.js.map",
     "static/js/2.109d57cf.chunk.js": "/static/js/2.109d57cf.chunk.js",
     "static/js/2.109d57cf.chunk.js.map": "/static/js/2.109d57cf.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8db4464f.chunk.css.map": "/static/css/main.8db4464f.chunk.css.map",
+    "static/css/main.350cc54d.chunk.css.map": "/static/css/main.350cc54d.chunk.css.map",
     "static/js/2.109d57cf.chunk.js.LICENSE.txt": "/static/js/2.109d57cf.chunk.js.LICENSE.txt",
     "static/media/Hero.css": "/static/media/Hero4.9bf18404.gif",
+    "static/media/PostgreSQL.d67cc462.png": "/static/media/PostgreSQL.d67cc462.png",
+    "static/media/React.f3e576ba.png": "/static/media/React.f3e576ba.png",
+    "static/media/Redux.b3b939c6.png": "/static/media/Redux.b3b939c6.png",
     "static/media/calorie.f9161b60.PNG": "/static/media/calorie.f9161b60.PNG",
     "static/media/harmony.cf4418a6.PNG": "/static/media/harmony.cf4418a6.PNG",
     "static/media/headshot.7994c15a.jpg": "/static/media/headshot.7994c15a.jpg",
@@ -19,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.0733fe2d.js",
     "static/js/2.109d57cf.chunk.js",
-    "static/css/main.8db4464f.chunk.css",
-    "static/js/main.a64f5743.chunk.js"
+    "static/css/main.350cc54d.chunk.css",
+    "static/js/main.d45c8218.chunk.js"
   ]
 }
