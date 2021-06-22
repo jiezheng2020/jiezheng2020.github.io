@@ -1,5 +1,5 @@
 /* TODO Add site wide styles */
 body {
-  background-color: #000900;
+  background: linear-gradient(#000900, #000c03, #0e2d52);
   font-family: "Roboto Condensed", sans-serif;
 }

@@ -7,34 +7,52 @@ export default function Projects() {
   return (
     <div id="projects">
       <div className="d-flex flex-column align-items-center">
-        <h2 style={{ fontSize: "30px" }}>Projects</h2>
+        <h2 style={{ fontSize: "35px", marginBottom: "30px" }}>Projects</h2>
         <div className="d-flex projects-row">
-          <div className="project-container">
-            <img className="proj-image" src={calorie} />
-            <div className="d-flex flex-row proj-links">
-              <a>Github Repo</a>
-              <a>Live Link</a>
+          <div className="d-flex flex-column align-items-center">
+            <h3 style={{ marginTop: "20px" }}>Calorie</h3>
+            <h5 style={{ marginBottom: "20px" }}>
+              Your personal calorie counter
+            </h5>
+            <div className="project-container">
+              <img className="proj-image" src={calorie} />
+              <div className="d-flex flex-row proj-links">
+                <a>Github Repo</a>
+                <a>Live Link</a>
+              </div>
             </div>
           </div>
-          <div className="project-container d-flex flex-column">
-            <img className="proj-image" src={harmony} />
-            <div className="d-flex flex-row proj-links">
-              <a>Github Repo</a>
-              <a>Live Link</a>
+          <div className="d-flex flex-column align-items-center">
+            <h3 style={{ marginTop: "20px" }}>Harmony</h3>
+            <h5 style={{ marginBottom: "20px" }}>Chat with friends live</h5>
+            <div className="project-container">
+              <img className="proj-image" src={harmony} />
+              <div className="d-flex flex-row proj-links">
+                <a>Github Repo</a>
+                <a>Live Link</a>
+              </div>
             </div>
           </div>
-          <div className="project-container">
-            <img className="proj-image" src={wanderlust} />
-            <div className="d-flex flex-row proj-links">
-              <a>Github Repo</a>
-              <a>Live Link</a>
+          <div className="d-flex flex-column align-items-center">
+            <h3 style={{ marginTop: "20px" }}>Wanderlust</h3>
+            <h5 style={{ marginBottom: "20px" }}>Traveling made easy</h5>
+            <div className="project-container">
+              <img className="proj-image" src={wanderlust} />
+              <div className="d-flex flex-row proj-links">
+                <a>Github Repo</a>
+                <a>Live Link</a>
+              </div>
             </div>
           </div>
-          <div className="project-container">
-            <div className="proj-image" />
-            <div className="d-flex flex-row proj-links">
-              <a>Github Repo</a>
-              <a>Live Link</a>
+          <div className="d-flex flex-column align-items-center">
+            <h3 style={{ marginTop: "20px" }}>GoodGamesGG</h3>
+            <h5 style={{ marginBottom: "20px" }}>Your go to game catalog</h5>
+            <div className="project-container">
+              <img className="proj-image" src="" />
+              <div className="d-flex flex-row proj-links">
+                <a>Github Repo</a>
+                <a>Live Link</a>
+              </div>
             </div>
           </div>
         </div>

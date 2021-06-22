@@ -4,7 +4,7 @@ import React from "react";
 export default function AboutMe() {
   return (
     <div id="about" className="aboutme-container">
-      <h2>About Me</h2>
+      <h2 style={{ fontSize: "35px" }}>About Me</h2>
       <div className="about-blurb">
         I graduated from Northwestern University in 2020 with a bachelors in
         Mechanical Engineering. During my time there, I realized that my
