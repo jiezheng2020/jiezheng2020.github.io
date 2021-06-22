@@ -30,7 +30,7 @@ function Hero() {
       <div className="d-flex flex-column pt-5 ps-sm-2 justify-content-center vh-100 w-100">
         <div className="ps-sm-5">
           <div className="d-xl-flex align-items-center ps-sm-5">
-            <div className="pb-4">
+            <div className="pb-4 hero-head">
               <Image src={headshot} roundedCircle fluid className="headshot" />
             </div>
             <div className="ps-sm-5 hero-content display-1 fw-normal hero-content flex-row">

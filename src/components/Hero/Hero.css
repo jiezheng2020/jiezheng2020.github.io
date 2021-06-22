@@ -22,6 +22,11 @@ p {
   margin: 0;
 }
 
+.hero-head {
+  display: flex;
+  justify-content: center;
+}
+
 .headshot {
   max-height: 50vh;
   padding: 25px;
