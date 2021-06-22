@@ -17,8 +17,10 @@ export default function Projects() {
             <div className="project-container">
               <img className="proj-image" src={calorie} />
               <div className="d-flex flex-row proj-links">
-                <a>Github Repo</a>
-                <a>Live Link</a>
+                <a href="https://github.com/jiezheng2020/Calorie">
+                  Github Repo
+                </a>
+                <a href="https://calorie-aa.herokuapp.com/welcome">Live Link</a>
               </div>
             </div>
           </div>
@@ -28,8 +30,10 @@ export default function Projects() {
             <div className="project-container">
               <img className="proj-image" src={harmony} />
               <div className="d-flex flex-row proj-links">
-                <a>Github Repo</a>
-                <a>Live Link</a>
+                <a href="https://github.com/danielshoun/harmony/">
+                  Github Repo
+                </a>
+                <a href="https://harmony-app-aa.herokuapp.com/">Live Link</a>
               </div>
             </div>
           </div>
@@ -39,8 +43,10 @@ export default function Projects() {
             <div className="project-container">
               <img className="proj-image" src={wanderlust} />
               <div className="d-flex flex-row proj-links">
-                <a>Github Repo</a>
-                <a>Live Link</a>
+                <a href="https://github.com/jiezheng2020/Wanderlust/wiki">
+                  Github Repo
+                </a>
+                <a href="https://wanderlst.herokuapp.com/">Live Link</a>
               </div>
             </div>
           </div>
