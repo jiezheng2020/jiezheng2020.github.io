@@ -3,6 +3,21 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
 export default function NavBar() {
+  window.addEventListener("DOMContentLoaded", function () {
+    let aboutme = document.querySelector("#about");
+    let targetnav = document.querySelector(".navbar");
+    let aboutmePos = aboutme.offsetHeight;
+
+    window.addEventListener("scroll", function () {
+      let position = window.scrollY;
+
+      if (position >= aboutmePos) {
+        targetnav.classList.add("shiftnav");
+      } else {
+        targetnav.classList.remove("shiftnav");
+      }
+    });
+  });
   return (
     <Navbar expand="lg" fixed="top" bg="custom" variant="dark">
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -33,3 +33,7 @@ a.nav-link:hover {
 .active {
   color: none;
 }
+
+.shiftnav {
+  background-color: rgba(2, 2, 2, 1) !important;
+}
