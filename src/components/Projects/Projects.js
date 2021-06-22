@@ -2,6 +2,7 @@ import "./Projects.css";
 import calorie from "./calorie.PNG";
 import harmony from "./harmony.PNG";
 import wanderlust from "./wanderlust.PNG";
+import ggames from "./GoodGamesGG.PNG"
 
 export default function Projects() {
   return (
@@ -54,10 +55,10 @@ export default function Projects() {
             <h3 style={{ marginTop: "20px" }}>GoodGamesGG</h3>
             <h5 style={{ marginBottom: "20px" }}>Your go to game catalog</h5>
             <div className="project-container">
-              <img className="proj-image" src="" />
+              <img className="proj-image" src={ggames} />
               <div className="d-flex flex-row proj-links">
-                <a>Github Repo</a>
-                <a>Live Link</a>
+                <a href="https://github.com/jiezheng2020/GoodGamesGG">Github Repo</a>
+                <a href="https://goodgamesgg.herokuapp.com/">Live Link</a>
               </div>
             </div>
           </div>
