@@ -8,10 +8,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        process.env.YOUR_SERVICE_ID,
-        process.env.TEMPLATE_ID,
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         e.target,
-        process.env.YOUR_USER_ID
+        process.env.REACT_APP_USER_ID
       )
       .then(
         (result) => {
