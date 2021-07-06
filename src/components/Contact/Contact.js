@@ -26,7 +26,7 @@ function Contact() {
   }
 
   return (
-    <div className="contact-container">
+    <div id="contact" className="contact-container">
       <div style={{ fontSize: "35px" }}>Contact Me</div>
       <form className="contact-form" onSubmit={sendEmail}>
         <input type="hidden" name="contact_number" />
