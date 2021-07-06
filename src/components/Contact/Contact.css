@@ -1,0 +1,32 @@
+.contact-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 30px 20px;
+}
+
+.contact-form > label {
+  margin: 5px 0;
+}
+
+.email-submit {
+  width: 100px;
+  margin: 40px auto;
+  background-color: #305ae4;
+  color: white;
+  padding: 4px 16px;
+  border-radius: 5px;
+  border: none;
+  opacity: 0.9;
+}
+.email-submit:hover {
+  opacity: 1;
+}
