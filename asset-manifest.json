@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.62e53360.chunk.css",
-    "main.js": "/static/js/main.0d5bf851.chunk.js",
-    "main.js.map": "/static/js/main.0d5bf851.chunk.js.map",
+    "main.js": "/static/js/main.491273a7.chunk.js",
+    "main.js.map": "/static/js/main.491273a7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0733fe2d.js",
     "runtime-main.js.map": "/static/js/runtime-main.0733fe2d.js.map",
-    "static/js/2.5a59596e.chunk.js": "/static/js/2.5a59596e.chunk.js",
-    "static/js/2.5a59596e.chunk.js.map": "/static/js/2.5a59596e.chunk.js.map",
+    "static/js/2.9aff03fe.chunk.js": "/static/js/2.9aff03fe.chunk.js",
+    "static/js/2.9aff03fe.chunk.js.map": "/static/js/2.9aff03fe.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.62e53360.chunk.css.map": "/static/css/main.62e53360.chunk.css.map",
-    "static/js/2.5a59596e.chunk.js.LICENSE.txt": "/static/js/2.5a59596e.chunk.js.LICENSE.txt",
+    "static/js/2.9aff03fe.chunk.js.LICENSE.txt": "/static/js/2.9aff03fe.chunk.js.LICENSE.txt",
     "static/media/GoodGames.a39a9a17.PNG": "/static/media/GoodGames.a39a9a17.PNG",
     "static/media/Hero.css": "/static/media/Hero4.9bf18404.gif",
     "static/media/PostgreSQL.d67cc462.png": "/static/media/PostgreSQL.d67cc462.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0733fe2d.js",
-    "static/js/2.5a59596e.chunk.js",
+    "static/js/2.9aff03fe.chunk.js",
     "static/css/main.62e53360.chunk.css",
-    "static/js/main.0d5bf851.chunk.js"
+    "static/js/main.491273a7.chunk.js"
   ]
 }
